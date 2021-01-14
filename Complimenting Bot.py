@@ -11,11 +11,12 @@ import tweepy
 import random
 import time
 
-consumer_key = '1gWDXc3KIPeTkUDZowLKIDd4G'
-consumer_secret = '9XMeNAsxY5S7Z6fD36bpJX6wkMzWD9NKU4YTxfnL0oQOe4sDRk'
+'enter your own keys and secret codes for twitter'
+consumer_key = ''
+consumer_secret = ''
 
-key = '1332114509230604294-T17c7nuR0Mz92ISMTLWxrkYVKpSt4a'
-secret = 'mWbyRQSTwvKfeCHkpxgq0B6lPTUTVN8SCFtXHnrcgA1aK'
+key = ''
+secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
