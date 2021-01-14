@@ -1,3 +1,12 @@
+'''
+Jacob Samson
+Date: 1/14/2021
+Complimenting Bot
+
+A twitter bot that replies to users that mention it in a tweet. It replies with
+their name and a compliment.
+'''
+
 import tweepy
 import random
 import time
